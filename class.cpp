@@ -8,8 +8,7 @@
 using namespace std;
 void main()
 {
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
+	SetConsoleCP(1251); SetConsoleOutputCP(1251);
 	Menu menu;
 	Sanatroty sanatroty;
 	menu.Output();
@@ -23,7 +22,6 @@ void main()
 			case '3': sanatroty.View(); break;
 			default:  break;
 		}
-
 	}
 }
 
